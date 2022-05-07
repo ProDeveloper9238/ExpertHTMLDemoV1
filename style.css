@@ -14,7 +14,7 @@ body { /*!!!!!!!!*/
 	margin-top:150px;
 }
 
-td {
+.mainButtonTableData {
 	height:200px;
 	width:150px;
 }
@@ -73,4 +73,60 @@ td {
 
 	border-top-left-radius:10px;
 	border-bottom-left-radius:10px;
+}
+
+.tasks {
+	height:390px;
+	width:600px;
+	padding-top:10px;
+	background-color:#ffffff;
+	border-radius:10px;
+	box-shadow:10px 10px 30px #000000;
+	font-size:20px;
+	font-family:Bahnschrift;
+}
+
+.answer {
+	height:20px;
+	width:45px;
+	background-color:#888888;
+	font-size:20px;
+	font-family:Bahnschrift;
+	border-radius:2px;
+}
+
+.tasksTable {
+	margin:auto;
+	margin-bottom:50px;
+}
+
+/*table, td, tr {
+	border:2px solid black;
+	border-collapse:collapse;
+}*/
+
+.buttonTasksTableData {
+	width:150px;
+}
+
+.submit {
+	width:105px;
+	height:43px;
+	padding-top:7px;
+	padding-left:5px;
+	margin-top:-180px;
+	background-color:#ffffff;
+	font-size:30px;
+	font-family:Bahnschrift;
+	transition:0.3s;
+
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.submit:hover {
+	width:115px;
+	padding-left:15px;
+	background-color:#52128a;
+	color:white;
 }
